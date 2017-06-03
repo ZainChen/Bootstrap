@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=200,height=800,user-scalable=no,initial-scale=1.0"/>
+    <title>PHP框架学习文档-Bootstrap</title>
+    <link rel="icon" href="./image/php.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-2.2.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- 返回首部按钮 -->
+    <div class="czy-return" id="czy-return"><i class="glyphicon glyphicon-chevron-up"></i></div>
+    <!-- 页眉部分 -->
+    <header class="heager-top czy-heager-top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="head-h1">为 WEB 艺术家创造的 PHP 框架。</h1>
+          </div>
+          <div class="col-sm-12 czy-header-menu" id="czy-header-menu">
+            <a id="header-a1" href="#">5.1 中文文档</a>
+            <a id="header-a2" href="#">5.0 中文文档</a>
+            <a id="header-a3" href="#">4.2 中文文档</a>
+            <a id="header-a4" href="#">4.1 中文文档</a>
+            <a id="header-a5" href="#">Lumen 中文文档</a>
+            <a id="header-a6" href="#">问答社区</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- 导航链接部分 -->
+    <nav class="navbar navbar-default czy-nav" role="navigation">
+      <div class="container-fluid czy-nav-div">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed czy-nav-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="czy-menu" id="czy-menu">
+            <li class="czy-menu-li1" id="czy-menu-li1" class="czy-menu-li1"><a href="#">首页</a></li>
+            <li class="czy-menu-li2" id="czy-menu-li2"><a href="#">Lumen</a></li>
+            <li class="czy-menu-li3" id="czy-menu-li3"><a href="#">问答社区</a></li>
+            <li class="czy-menu-li4" id="czy-menu-li4"><a href="#">中文文档</a></li>
+            <li class="czy-menu-li5" id="czy-menu-li5"><a href="#">下载离线文档</a></li>
+            <li class="czy-menu-li6" id="czy-menu-li6"><a href="#">API</a></li>
+            <li class="czy-menu-li7" id="czy-menu-li7"><a href="#">PHP中文手册</a></li>
+            <li class="czy-menu-li8" id="czy-menu-li8"><a href="#">Composer</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- 中间栅格布局部分 -->
+    <div class="czy-middle">
+      <div class="container">
+        <div class="row czy-row">
+          <div class="col-md-8"></div>
+          <!-- 左边部分 -->
+          <div class="col-md-8 czy-leftcontent">
+            <div class="contentl1"><br/>
+              <a href="#"><h1>Laravel 5.3 正式发布</h1></a>
+              <p>作者：<span>王赛</span>&nbsp;&nbsp;• 2016年8月24日</p>
+              <a href="#"><img src="./image/contentl1.png"></a>
+              <h4>Laravel 项目组自豪地宣布 Laravel 5.3 正式发布了 ！5.3 版本中的新增特性主要集中在提升开发速度，通过增强常见任务的开箱即用功能提升开发效率。 此版本是常规发布版本，提供六个月的 bug 修复补丁和一年的安全补丁。当前，Laravel 5.1 是最新的 LTS（长期支持） 版本，提供两年的 bug</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i></h5>
+            </div>
+            <div class="contentl2"><br/>
+              <a href="#"><h1>Laracon 开发者大会快报：听 Taylor Otwell 讲解 Laravel 5.3 的新特性</h1></a>
+              <p>作者：<span>王赛</span>&nbsp;&nbsp;• 2016年7月28日</p>
+              <a href="#"><img src="./image/contentl2.png"></a>
+              <h4>今天， Taylor Otwell 在 Laracon US 开发者大会上就 Laravel 5.3 的新特性作了长时间的演讲，演讲内容主要概括为四个方面：Laravel Scout、Laravel Passport、Laravel Mailable 和 Laravel Notifications。 此次演讲预定是</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i></h5>
+            </div>
+            <div class="contentl3"/><br/>
+              <a href="#"><h1>Laravel 五岁了</h1></a>
+              <p>作者：<span>王赛</span>&nbsp;&nbsp;• 2016年6月12日</p>
+              <a href="#"><img src="./image/contentl3.jpg"></a>
+              <h4>五年前（2011年6月11日）的今天，Taylor Otwell 将 Laravel 带到了这个世界！ 下面摘抄了部分原文：点这里看完整的原文 I've been working on this framework for about 7 months. I've worked really hard to mak</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i></h5>
+            </div>
+            <div class="contentl4"/><br/>
+              <a href="#"><h1>2016 版 Laravel 系列入门教程（一）</h1></a>
+              <p>作者：<span>JohnLui</span>&nbsp;&nbsp;• 2016年6月6日</p>
+              <a href="#"><img src="./image/contentl4.jpg"></a>
+              <h4>本教程示例代码见：https://github.com/johnlui/Learn-Laravel-5 在任何地方卡住，最快的办法就是去看示例代码。 本文基于 Laravel 5.2 版本，无奈 5.2 的中文文档还没有跟上，大家勉强看一下 5.1 的吧： Laravel 5.1 中文文档： http:</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i>Laravel 5, Laravel入门教程, Laravel 5.2</h5>
+            </div>
+            <div class="contentl5"/><br/>
+              <a href="#"><h1>2016 版 Laravel 系列入门教程（二）</h1></a>
+              <p>作者：<span>JohnLui</span>&nbsp;&nbsp;• 2016年6月6日</p>
+              <a href="#"><img src="./image/contentl5.jpg"></a>
+              <h4>本教程示例代码见：https://github.com/johnlui/Learn-Laravel-5 在任何地方卡住，最快的办法就是去看示例代码。 本篇文章中，我将跟宝宝们一起学习 Laravel 框架最重要的部分——路由系统。 如果你读过旧的基于 Laravel 5.0 版本的此教程，你会发现那篇文</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i>Laravel 5, Laravel入门教程, Laravel 5.2</h5>
+            </div>
+            <div class="contentl6"/><br/>
+              <a href="#"><h1>2016 版 Laravel 系列入门教程（三）</h1></a>
+              <p>作者：<span>JohnLui</span>&nbsp;&nbsp;• 2016年6月6日</p>
+              <a href="#"><img src="./image/contentl6.jpg"></a>
+              <h4>本教程示例代码见：https://github.com/johnlui/Learn-Laravel-5 在任何地方卡住，最快的办法就是去看示例代码。 在本篇文章中，我们将尝试构建一个带后台的简单博客系统。我们将会使用到 路由、MVC、Eloquent ORM 和 blade 视图系统。 简单博客系统规划</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i>Laravel 5, Laravel入门教程, Laravel 5.2</h5>
+            </div>
+            <div class="contentl7"/><br/>
+              <a href="#"><h1>2016 版 Laravel 系列入门教程（四）</h1></a>
+              <p>作者：<span>JohnLui</span>&nbsp;&nbsp;• 2016年6月6日</p>
+              <a href="#"><img src="./image/contentl7.jpg"></a>
+              <h4>本教程示例代码见：https://github.com/johnlui/Learn-Laravel-5 在任何地方卡住，最快的办法就是去看示例代码。 本篇文章中，我将跟大家一起实现 Article 的新增、编辑和删除功能，仔细解读每一段代码，相信本篇文章看完，你就能够 get Laravel 使用之道。</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i>Laravel 5, Laravel入门教程, Laravel 5.2</h5>
+            </div>
+            <div class="contentl8"/><br/>
+              <a href="#"><h1>2016 版 Laravel 系列入门教程（五）【完结】</h1></a>
+              <p>作者：<span>JohnLui</span>&nbsp;&nbsp;• 2016年6月6日</p>
+              <a href="#"><img src="./image/contentl8.jpg"></a>
+              <h4>本教程示例代码见：https://github.com/johnlui/Learn-Laravel-5 在任何地方卡住，最快的办法就是去看示例代码。 本文是本系列教程的完结篇，我们将一起给 Article 加入评论功能，让游客在前台页面可以查看、提交、回复评论，并完成后台评论管理功能，可以删除、编辑评论</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i>Laravel 5, Laravel入门教程, Laravel 5.2</h5>
+            </div>
+            <div class="contentl9"/><br/>
+              <a href="#"><h1>Composer 终于走到了 v1.0 版本</h1></a>
+              <p>作者：<span>王赛</span>&nbsp;&nbsp;• 2016年4月6日</p>
+              <a href="#"><img src="./image/contentl9.jpg"></a>
+              <h4>Composer 项目刚刚宣布在其第五个生日的同一天发布了 V1.0 正式版。 以下翻译自 Composer 创始人 Jordi Boggiano 的原文： 五年前的今天，Composer 诞生了。在某些方面，这感觉就像昨天发生的事，至少它不像过去了五年。但在其他方面，好像是上辈子的事了，没有一个完整的 PHP 生</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i></h5>
+            </div>
+            <div class="contentl10"/><br/>
+              <a href="#"><h1>Lumen 5.2 正式发布</h1></a>
+              <p>作者：<span>王赛</span>&nbsp;&nbsp;• 2016年1月8日</p>
+              <a href="#"><img src="./image/contentl10.png"></a>
+              <h4>Lumen 5.2.0 已经正式发布了！此次发布的版本包含了 Laravel 5.2 的组件并在核心理念上做了重大改变。 建议所有 Lumen 用户阅读相关文档了解以下所提到的改变： 专注提供无状态的 API 服务 Lumen 5.2 对 Lumen 进行了大瘦身专注于，并且将专注提供无状态的 JSON API 服务。</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i>Lumen, 新版本发布</h5>
+            </div>
+            <div class="contentl11"/><br/>
+              <a href="#"><h1>Lumen 5.2 正式发布</h1></a>
+              <p>作者：<span>王赛</span>&nbsp;&nbsp;• 2015年12月22日</p>
+              <a href="#"><img src="./image/contentl11.png"></a>
+              <h4>Laravel 5.2 正式版刚刚发布了，前边我们已经发过一篇文章列举了新版本带来的新特性，有兴趣的同学可以再去看一下：Laravel 5.2 要发布了，来看看都有哪些新特性吧 。 话不多说，还是直接 composer install 并看文档吧！</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i>新版本发布, Laravel 5.2</h5>
+            </div>
+            <div class="contentl12"/><br/>
+              <a href="#"><h1>Laravel 5.2 要发布了，来看看都有哪些新特性吧</h1></a>
+              <p>作者：<span>王赛</span>&nbsp;&nbsp;• 2015年12月12日</p>
+              <a href="#"><img src="./image/contentl12.png"></a>
+              <h4>Laravel 5.2 即将发布！它带来了哪些新特性？我们根据 Laravel 创始人 Taylor Otwell 在 Twitter 上发布的推文一起来梳理一下吧： 中间件组（Middleware Groups） 中间件组也许是你最希望得到的新特性，这一特性允许你为路由（route）设置一组中间件： 支持 MySQL</h4>
+              <button>阅读全文</button>
+              <h5><i class="glyphicon glyphicon-fire"></i>Laravel, 新版本发布, Laravel 5.2</h5>
+            </div>
+            <h2>
+              <div class="btnl1">第 1 页 ⁄ 共 5 页</div>
+              <div class="btnl2"><i class="glyphicon glyphicon-chevron-right"></i></div>
+            </h2>
+            <h3 class="czy-h5"></h3>
+          </div>
+          <!-- 右边部分 -->
+          <div class="col-md-4 czy-rightcontent">
+            <div class="contentr1">
+              <div>
+                <h3><span>社区</span></h3>
+                <p>QQ群：462694081</p>
+                <a href="#"><i class="glyphicon glyphicon-earphone"></i>问答社区</a>
+                <br/><br/>
+              </div>
+            </div>
+            <div class="contentr2">
+              <div>
+                <h3><span>下载</span></h3>
+                <a href="#">Laravel & Lumen 一键安装包下载</a>
+                <br/>
+              </div>
+            </div>
+            <div class="contentr3">
+              <div>
+                <h3><span>标签云</span></h3>
+                <a href="#">Laravel 5.2</a>
+                <a href="#">Spark</a>
+                <a href="#">镜像</a>
+                <a href="#">新版本发布</a>
+                <a href="#">LTS</a>
+                <a href="#">微框架</a>
+                <a href="#">Lumen</a>
+                <a href="#">命名空间</a>
+                <a href="#">Laravel4</a>
+                <a href="#">Whoops</a>
+                <a href="#">Event</a>
+                <a href="#">升级</a>
+                <a href="#">laravle5</a>
+                <a href="#">错误页</a>
+                <a href="#">Laravel 5</a>
+                <a href="#">Artisan</a>
+                <a href="#">Laravel 5.1</a>
+                <a href="#">Lravel</a>
+                <a href="#">...</a>
+                <br/><br/>
+              </div>
+            </div>
+          </div><br/><br/>
+        </div>
+      </div>
+    </div>
+    <!-- 底部栅格布局部分 -->
+    <div class="czy-bottom1">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="contentr1">
+              <div>
+                <h3><span>最新文章</span></h3>
+                <a href="#">Laravel 5.3 正式发布</a>
+                <p>2016年8月24日</p>
+                <h5></h5>
+                <a href="#">Laracon 开发者大会快报：听 Taylor Otwell 讲解 Laravel 5.3 的新特性</a>
+                <p>2016年7月28日</p>
+                <h5></h5>
+                <a href="#">Laravel 五岁了</a>
+                <p>2016年6月12日</p>
+                <h5></h5>
+                <br/><br/>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="contentr3">
+              <div>
+                <h3><span>标签云</span></h3>
+                <a href="#">Laravel</a>
+                <a href="#">Laravel入门教程</a>
+                <a href="#">Laravel 5</a>
+                <a href="#">Laravel 5.2</a>
+                <a href="#">Eloquent</a>
+                <a href="#">新版本发布</a>
+                <a href="#">Laravel 5.1</a>
+                <a href="#">laravle5</a>
+                <a href="#">Composer</a>
+                <a href="#">PHP</a>
+                <a href="#">ORM</a>
+                <a href="#">Artisan</a>
+                <a href="#">Lumen</a>
+                <a href="#">LTS</a>
+                <a href="#">安装</a>
+                <a href="#">...</a>
+                <br/><br/>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="contentr2">
+              <div>
+                <h3><span>合作伙伴</span></h3>
+                <a href="#">Bootstrap中文网</a>
+                <a href="#">开放CDN服务</a>
+                <a href="#">Grunt中文网</a>
+                <a href="#">Gulp中文网</a>
+                <h5></h5>
+                <a href="#">Lodash中文文档</a>
+                <a href="#">jQuery中文文档</a>
+                <h5></h5>
+                <a href="#">又拍云</a>
+                <a href="#">UCloud</a>
+                <a href="#">乐视云</a>
+                <br/><br/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 最底部友情链接等部分 -->
+    <div class="czy-bottom2">
+      <p>Copyright © <a href="#">Laravel 中文网</a>　|　<a href="#">京ICP备11008151号</a>　|　京公网安备11010802014853</p>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
